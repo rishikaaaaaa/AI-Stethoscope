@@ -8,7 +8,7 @@ An intelligent stethoscope system that uses deep learning and signal processing 
 
 ## 📌 Project Description
 
-This project implements an **AI-powered stethoscope** that records live heart sounds using a microphone connected to a Raspberry Pi and classifies them using a lightweight **TensorFlow Lite** model. It leverages **MFCC (Mel-Frequency Cepstral Coefficients)** for feature extraction and runs inference on-device, providing fast, accurate, and interpretable results through the terminal or an optional web interface.
+This project implements an AI-powered stethoscope that records live heart sounds using a microphone connected to a Raspberry Pi and classifies them using a lightweight TensorFlow Lite model. It leverages MFCC (Mel-Frequency Cepstral Coefficients)** for feature extraction and runs inference on-device, providing fast, accurate, and interpretable results through the terminal or an optional web interface.
 
 ---
 
@@ -19,7 +19,6 @@ This project implements an **AI-powered stethoscope** that records live heart so
 - MFCC feature extraction using `librosa`  
 - CNN-based deep learning model trained on heartbeat datasets  
 - Deployment via TensorFlow Lite on Raspberry Pi  
-- Web-based GUI (optional Flask app)  
 - Spectrogram and waveform visualization for debugging  
 
 ---
